@@ -1,5 +1,7 @@
 document.addEventListener("DOMContentLoaded", main());
 function main() {
+    const btnlistado = document.getElementById("btn-tab-listado-btn");
+    btnlistado.addEventListener(onclick)
     const salas =(JSON.parse("salas", [
     { "id": "A100", "nombre": "Aula A100",          "capacidad": 30,  "tipo": "Informática"   },
     { "id": "A118", "nombre": "Aula A118",          "capacidad": 28,  "tipo": "Informática"   },
@@ -27,9 +29,10 @@ function main() {
     document.appendChild(div);
 
   }
-  const boton
   const salaSeleccionada="";
   const calendario = document.getElementById("paso-calendario");
-  const btnlistado = document.getElementById("btn-tab-listado-btn");
+  calendario.className="mt-4";
+
+  
 
 }
