@@ -27,4 +27,8 @@ function main() {
     document.appendChild(div);
 
   }
+  const boton
+  const salaSeleccionada="";
+  const calendario = document.getElementById("paso-calendario");
+
 }
