@@ -17,7 +17,10 @@ function main() {
     document.createElement("div");
     document.createElement("div");
     document.createElement("span");
-
+    document.createTextNode(salas.id);
+    document.createTextNode(salas.id.nombre);
+    document.createTextNode(salas.id.capacidad);
+    document.createTextNode(salas.id.tipo);
 
   }
 }
