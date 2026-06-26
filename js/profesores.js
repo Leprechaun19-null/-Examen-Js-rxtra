@@ -16,6 +16,10 @@ function registrar(){
     localStorage.setItem("dni", elementodni);
     localStorage.setItem("telefono", elementotelefono);
     localStorage.setItem("curso", elementocourso);
+    document.createElement("tr");
+    document.createElement("td");
+    document.createElement("td");
+    document.createElement("td");
 
 }
 }
