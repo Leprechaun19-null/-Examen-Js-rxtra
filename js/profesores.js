@@ -35,9 +35,9 @@ function registrar(){
     document.appendChild("elementodni");
     document.appendChild("tr");
     document.appendChild("elementocurso");
+    elementocourso.setAttribute("required");
+    elementodni.setAttribute("maxlength = '9");
+    elementodni.setAttribute("required");
     
-
-
-
 }
 }
