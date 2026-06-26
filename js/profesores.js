@@ -24,8 +24,12 @@ function registrar(){
     document.createElement("button");
     document.createElement("button");
     document.createTextNode("Nombre");
+    document.createTextNode(elementonombre);
     document.createTextNode("DNI");
+    document.createTextNode(elementodni);
     document.createTextNode("Telèfono");
+    document.createTextNode("elementotelefono");
+
     document.appendChild("tr");
     document.appendChild("tr");
     document.appendChild("tr");
