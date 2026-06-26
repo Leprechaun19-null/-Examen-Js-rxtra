@@ -15,7 +15,7 @@ function registrar(){
     localStorage.setItem("nombre", elementonombre);
     localStorage.setItem("dni", elementodni);
     localStorage.setItem("telefono", elementotelefono);
-    localStorage.setItem
+    localStorage.setItem("curso", elementocourso);
 
 }
 }
