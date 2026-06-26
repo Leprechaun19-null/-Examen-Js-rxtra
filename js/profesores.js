@@ -36,6 +36,7 @@ function registrar(){
     document.appendChild("elementodni");
     document.appendChild("tr");
     document.appendChild("elementocurso");
+    
 
 
 
