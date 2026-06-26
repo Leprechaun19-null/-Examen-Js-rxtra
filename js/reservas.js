@@ -1,5 +1,10 @@
 document.addEventListener("DOMContentLoaded", main());
 function main() {
+    const cards= document.querySelectorAll("card");
+    cards.addEventListener(onclick, seleccionat());
+    function seleccionat(){
+        const classeSeleccionada = cards.entries[0];
+    }
     const btnlistado = document.getElementById("btn-tab-listado-btn");
     btnlistado.addEventListener(onclick)
     const salas =(JSON.parse("salas", [
@@ -32,6 +37,7 @@ function main() {
   const salaSeleccionada="";
   const calendario = document.getElementById("paso-calendario");
   calendario.className="mt-4";
+
 
   
 
