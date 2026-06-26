@@ -7,6 +7,15 @@ const elementocourso=document.getElementById("p-curso");
 const botonenviar= document.getElementById("btn-form-profesor");
 botonenviar.addEventListener(onclick,  registrar());
 function registrar(){
-    
+    elementonombre.checkvalidity();
+    elementodni.checkvalidity();
+    elementotelefono.checkvalidity();
+    elementocourso.checkvalidity();
+    localStorage.setItem("id", 1)
+    localStorage.setItem("nombre", elementonombre);
+    localStorage.setItem("dni", elementodni);
+    localStorage.setItem("telefono", elementotelefono);
+    localStorage.setItem
+
 }
 }
