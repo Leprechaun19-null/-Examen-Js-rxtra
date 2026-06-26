@@ -23,6 +23,14 @@ function registrar(){
     document.createElement("td");
     document.createElement("button");
     document.createElement("button");
+    document.createTextNode("Nombre");
+    document.createTextNode("DNI");
+    document.createTextNode("Telèfono");
+    document.appendChild("tr");
+    document.appendChild("tr");
+    document.appendChild("tr");
+
+
 
 }
 }
