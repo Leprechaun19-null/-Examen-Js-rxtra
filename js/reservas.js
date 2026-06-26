@@ -21,6 +21,10 @@ function main() {
     document.createTextNode(salas.id.nombre);
     document.createTextNode(salas.id.capacidad);
     document.createTextNode(salas.id.tipo);
+    document.appendChild(div);
+    document.appendChild(div);
+    document.appendChild(div);
+    document.appendChild(div);
 
   }
 }
