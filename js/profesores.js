@@ -31,8 +31,11 @@ function registrar(){
     document.createTextNode("elementotelefono");
 
     document.appendChild("tr");
+    document.appendChild("elementonombre"),
     document.appendChild("tr");
+    document.appendChild("elementodni");
     document.appendChild("tr");
+    document.appendChild("elementocurso");
 
 
 
