@@ -29,7 +29,6 @@ function registrar(){
     document.createTextNode(elementodni);
     document.createTextNode("Telèfono");
     document.createTextNode("elementotelefono");
-
     document.appendChild("tr");
     document.appendChild("elementonombre"),
     document.appendChild("tr");

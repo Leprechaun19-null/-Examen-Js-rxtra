@@ -34,7 +34,6 @@ function main() {
     document.appendChild(div);
 
   }
-  const salaSeleccionada="";
   const calendario = document.getElementById("paso-calendario");
   calendario.className="mt-4";
 
