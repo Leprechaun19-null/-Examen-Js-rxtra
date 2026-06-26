@@ -30,5 +30,6 @@ function main() {
   const boton
   const salaSeleccionada="";
   const calendario = document.getElementById("paso-calendario");
+  const btnlistado = document.getElementById("btn-tab-listado-btn");
 
 }
