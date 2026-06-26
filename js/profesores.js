@@ -20,6 +20,9 @@ function registrar(){
     document.createElement("td");
     document.createElement("td");
     document.createElement("td");
+    document.createElement("td");
+    document.createElement("button");
+    document.createElement("button");
 
 }
 }
