@@ -13,6 +13,11 @@ function main() {
     document.createElement("span");
     document.createElement("div");
     document.createElement("div");
+    document.createElement("hr");
+    document.createElement("div");
+    document.createElement("div");
+    document.createElement("span");
+
 
   }
 }
